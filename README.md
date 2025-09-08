@@ -16,8 +16,8 @@ _Global KPIs with slicers_
 - Popularity by Votes  
 - Max Rank  
 
-![Dashboard Screenshot Page 1 KPI OVERVIEW 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview.png)  
-![Dashboard Screenshot KPI OVERVIEW 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview%202.png)  
+📸 **[Dashboard Screenshot Page 1 KPI OVERVIEW 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview.png):**  
+📸 **[Dashboard Screenshot KPI OVERVIEW 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview%202.png):**  
 
 ### 2️⃣ Anime Analysis  
 _Drill-down into Anime dataset_  
@@ -27,7 +27,7 @@ _Drill-down into Anime dataset_
 - Episodes dropped by studios  
 - Titles from different sources  
 
-![Dashboard Screenshot Page 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20Analysis.png)  
+📸 **[Dashboard Screenshot Page 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20Analysis.png):**   
 
 ### 3️⃣ Manga Analysis  
 _Drill-down into Manga dataset_  
@@ -37,7 +37,7 @@ _Drill-down into Manga dataset_
 - Manga types distribution  
 - Manga publication trends  
 
-![Dashboard Screenshot Page 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Manga%20Analysis.png)  
+📸 **[Dashboard Screenshot Page 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Manga%20Analysis.png):**    
 
 ### 4️⃣ Anime vs Manga Comparison  
 _Head-to-head comparison_  
@@ -46,8 +46,8 @@ _Head-to-head comparison_
 - Most popular Anime vs Manga by score  
 - Rating distributions  
 
-![Dashboard Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga.png)  
-![Dashboard Screenshot 4 with Slicer](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga%20with%20slicer.png)  
+📸 **[Dashboard Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga.png):**
+📸 **[Dashboard Screenshot 4 with Slicer](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga%20with%20slicer.png):**   
    
 
 ---
@@ -67,156 +67,22 @@ _Head-to-head comparison_
 ---
 
 ### 📸 SQL Query Screenshots
-- ![SQL Query Screenshot 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png) → Queries 1–10 (output of Query 2)  
-- ![SQL Query Screenshot 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png) → Queries 11–20 (output of Query 17)  
-- ![SQL Query Screenshot 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png) → Queries 21–25 (output of Query 25)  
-- ![SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png) → Query 26 (final view with insights)  
+- ** **[SQL Query Screenshot 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png):**  ** → Queries 1–10 (output of Query 2)  
+- **📸 **[SQL Query Screenshot 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png):**  ** → Queries 11–20 (output of Query 17)  
+- **📸 **[SQL Query Screenshot3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png):**  ** → Queries 21–25 (output of Query 25)  
+- **📸 **[SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png):**  ** → Query 26 (final view with insights)  
 
 ---
-
-
-
 
 ## ⚙️ Tools & Technologies
-- **Power BI** → Data Cleaning, Visualization, Dashboarding  
-- **SQL Server** → Queries, Aggregations, Joins, Window Functions, Views  
-- **Excel/CSV** → Raw data source  
+- Power BI (Data Cleaning, Visualization, Dashboarding)  
+- SQL Server (Queries, Aggregations, Joins, Window Functions, Views)  
+- Excel/CSV (Raw data source)  
 
 ---
 
-## 📝 Anime & Manga Insight Queries
 
-```sql
----- Question 1: List all anime titles with their studio name.  
-select Title, Studios from Anime;
-
----- Question 2: Count the total number of anime and manga titles.
-select (select count(*) from Anime) as Total_Anime,
-       (select count(*) from Manga) as Total_Manga;
-
----- Question 5: Show average score of anime vs manga.
-select 'Anime' as Category, avg(Score) as Avg_Score from Anime
-union all
-select 'Manga', avg(Score) from Manga;
-
----- Question 17: Compare average votes of anime vs manga.
-select 'Anime' as Category, avg(Vote) as Avg_Vote from Anime
-union all
-select 'Manga', avg(Vote) from Manga;
-
----- Question 26: Create a view: overall anime vs manga insights.
-create view vw_animemanga_insights as
-select
-    (select count(*) from Anime) as Total_Anime_Titles,
-    (select count(*) from Manga) as Total_Manga_Titles,
-    (select avg(Score) from Anime) as Avg_Anime_Score,
-    (select avg(Score) from Manga) as Avg_Manga_Score,
-    (select sum(Vote) from Anime) as Total_Anime_Votes,
-    (select sum(Vote) from Manga) as Total_Manga_Votes,
-    (select max(try_cast(Episodes as int)) from Anime) as Max_Anime_Episodes,
-    (select max(try_cast(Chapters as int)) from Manga where isnumeric(Chapters) = 1) as Max_Manga_Chapters;
-📊 SQL Query Outputs
-Here are the SQL queries used in this project with sample outputs and insights:
-
-2️⃣ Find total number of anime titles released
-Query
-
-sql
-Copy code
-select count(distinct Title) as total_anime_titles
-from Anime;
-Output
-
-diff
-Copy code
-+-------------------+
-| total_anime_titles|
-+-------------------+
-|       9994        |
-+-------------------+
-7️⃣ Find top 5 manga genres with the highest number of titles
-Query
-
-sql
-Copy code
-select top 5 Genres, count(*) as total_titles
-from Manga
-group by Genres
-order by total_titles desc;
-Output
-
-diff
-Copy code
-+-----------+--------------+
-|  Genres   | total_titles |
-+-----------+--------------+
-| Shounen   |    1850      |
-| Seinen    |    1510      |
-| Shoujo    |    1280      |
-| Josei     |     280      |
-| Kids      |     130      |
-+-----------+--------------+
-🔍 Insight: Shounen dominates Manga genres, reflecting its mainstream appeal, followed by Seinen and Shoujo.
-
-5️⃣ Find the average popularity of top 10 ranked anime
-Query
-
-sql
-Copy code
-select avg(Popularity) as avg_popularity_top10
-from (
-    select top 10 Title, Popularity
-    from Anime
-    order by Rank asc
-) t;
-Output
-
-diff
-Copy code
-+----------------------+
-| avg_popularity_top10 |
-+----------------------+
-|        3.1M          |
-+----------------------+
-🔍 Insight: The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom.
-
-6️⃣ Create a view for overall insights of Anime & Manga
-Query
-
-sql
-Copy code
-create view vw_AnimeManga_Insights as
-select 
-   'Anime' as Category,
-   count(distinct Title) as total_titles,
-   avg(Score) as avg_score,
-   sum(Popularity) as total_popularity
-from Anime
-union all
-select 
-   'Manga' as Category,
-   count(distinct Title) as total_titles,
-   avg(Score) as avg_score,
-   sum(Popularity) as total_popularity
-from Manga;
-
--- View Output
-select * from vw_AnimeManga_Insights;
-Output
-
-diff
-Copy code
-+----------+--------------+-----------+----------------+
-| Category | total_titles | avg_score | total_popularity|
-+----------+--------------+-----------+----------------+
-|  Anime   |     9994     |    7.42   |     39M        |
-|  Manga   |     7320     |    7.36   |     67M        |
-+----------+--------------+-----------+----------------+
-🔍 Insight: Average scores are nearly equal, but Manga has more global popularity and a broader genre distribution, while Anime dominates votes and adaptations.
-
-```
-###
-Anime & Manga Insight(SQL + Power BI) project questions (table: Anime & Manga)
+## Anime & Manga Insight(SQL + Power BI) project questions (table: Anime & Manga)
 
  ```sql
 ---- Anime & Manga Insight Queries [QUESTIONS] ----  
@@ -274,9 +140,8 @@ select top 5 Title, Studios, Popularity from anime order by Popularity asc;
 ---- Question 25: find average number of episodes by rating category.
 select Rating, avg (try_cast(Episodes as int)) as AvgEpisodes from anime group by Rating order by AvgEpisodes desc;
 ```
-
 ---
-```
+
 ###
  Anime Data Insights Using View Summary from vw_animemanga_insights
 
@@ -322,6 +187,132 @@ Here are the SQL queries used in this project with sample outputs
 ⏳ Content addition shows Anime releases peaked in certain years, while Manga shows long-term consistency.
 
 ❌ Many Anime series are dropped mid-production, but Manga has even higher drop rates per author.
+
+---
+
+
+###
+2️⃣ Find total number of anime titles released
+
+Query
+
+select count(distinct Title) as total_anime_titles
+from Anime;
+
+
+Output
+
++-------------------+
+| total_anime_titles|
++-------------------+
+|       9994        |
++-------------------+
+```
+
+---
+
+---
+
+
+###
+7️⃣ Find top 5 manga genres with the highest number of titles
+
+Query
+
+select top 5 Genres, count(*) as total_titles
+from Manga
+group by Genres
+order by total_titles desc;
+
+
+Output
+
++-----------+--------------+
+|  Genres   | total_titles |
++-----------+--------------+
+| Shounen   |    1850      |
+| Seinen    |    1510      |
+| Shoujo    |    1280      |
+| Josei     |     280      |
+| Kids      |     130      |
++-----------+--------------+
+
+> 🔍 **Insight:**Insight👉 Shounen dominates Manga genres, reflecting its mainstream appeal, followed by Seinen and Shoujo.
+```
+
+---
+
+---
+
+
+
+###
+5️⃣ Find the average popularity of top 10 ranked anime
+
+Query
+
+select avg(Popularity) as avg_popularity_top10
+from (
+    select top 10 Title, Popularity
+    from Anime
+    order by Rank asc
+) t;
+
+
+Output
+
++----------------------+
+| avg_popularity_top10 |
++----------------------+
+|        3.1M          |
++----------------------+
+
+
+> 🔍 **Insight:** The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom
+
+```
+
+---
+
+---
+
+
+
+### 
+6️⃣ Create a view for overall insights of Anime & Manga
+
+Query
+
+create view vw_AnimeManga_Insights as
+select 
+   'Anime' as Category,
+   count(distinct Title) as total_titles,
+   avg(Score) as avg_score,
+   sum(Popularity) as total_popularity
+from Anime
+union all
+select 
+   'Manga' as Category,
+   count(distinct Title) as total_titles,
+   avg(Score) as avg_score,
+   sum(Popularity) as total_popularity
+from Manga;
+
+-- View Output
+select * from vw_AnimeManga_Insights;
+
+
+Output
+
++----------+--------------+-----------+----------------+
+| Category | total_titles | avg_score | total_popularity|
++----------+--------------+-----------+----------------+
+|  Anime   |     9994     |    7.42   |     39M        |
+|  Manga   |     7320     |    7.36   |     67M        |
++----------+--------------+-----------+----------------+
+```
+
+---
 
 ---
 
