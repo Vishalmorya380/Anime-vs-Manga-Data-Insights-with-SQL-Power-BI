@@ -16,8 +16,8 @@ _Global KPIs with slicers_
 - Popularity by Votes  
 - Max Rank  
 
-📸 **[Dashboard Screenshot Page 1 KPI OVERVIEW 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview.png):**  
-📸 **[Dashboard Screenshot KPI OVERVIEW 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview%202.png):**  
+![Dashboard Screenshot Page 1 KPI OVERVIEW 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview.png)  
+![Dashboard Screenshot KPI OVERVIEW 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview%202.png)  
 
 ### 2️⃣ Anime Analysis  
 _Drill-down into Anime dataset_  
@@ -27,7 +27,7 @@ _Drill-down into Anime dataset_
 - Episodes dropped by studios  
 - Titles from different sources  
 
-📸 **[Dashboard Screenshot Page 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20Analysis.png):**   
+![Dashboard Screenshot Page 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20Analysis.png)  
 
 ### 3️⃣ Manga Analysis  
 _Drill-down into Manga dataset_  
@@ -37,7 +37,7 @@ _Drill-down into Manga dataset_
 - Manga types distribution  
 - Manga publication trends  
 
-📸 **[Dashboard Screenshot Page 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Manga%20Analysis.png):**    
+![Dashboard Screenshot Page 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Manga%20Analysis.png)  
 
 ### 4️⃣ Anime vs Manga Comparison  
 _Head-to-head comparison_  
@@ -46,8 +46,8 @@ _Head-to-head comparison_
 - Most popular Anime vs Manga by score  
 - Rating distributions  
 
-📸 **[Dashboard Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga.png):**
-📸 **[Dashboard Screenshot 4 with Slicer](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga%20with%20slicer.png):**   
+![Dashboard Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga.png)  
+![Dashboard Screenshot 4 with Slicer](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga%20with%20slicer.png)  
    
 
 ---
@@ -67,10 +67,10 @@ _Head-to-head comparison_
 ---
 
 ### 📸 SQL Query Screenshots
-- ** **[SQL Query Screenshot 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png):**  ** → Queries 1–10 (output of Query 2)  
-- **📸 **[SQL Query Screenshot 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png):**  ** → Queries 11–20 (output of Query 17)  
-- **📸 **[SQL Query Screenshot3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png):**  ** → Queries 21–25 (output of Query 25)  
-- **📸 **[SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png):**  ** → Query 26 (final view with insights)  
+- ![SQL Query Screenshot 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png) → Queries 1–10 (output of Query 2)  
+- ![SQL Query Screenshot 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png) → Queries 11–20 (output of Query 17)  
+- ![SQL Query Screenshot 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png) → Queries 21–25 (output of Query 25)  
+- ![SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png) → Query 26 (final view with insights)  
 
 ---
 
