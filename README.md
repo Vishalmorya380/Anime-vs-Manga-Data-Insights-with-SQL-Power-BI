@@ -240,15 +240,15 @@ Output
 +-------------------+
 ```
 
----
 
 ---
 
 
-\###
+###
 7️⃣ Find top 5 manga genres with the highest number of titles
 
-Query
+**Query**
+```sql
 
 select top 5 Genres, count(*) as total_titles
 from Manga
@@ -273,14 +273,13 @@ Output
 
 ---
 
----
-
 
 
 ###
 5️⃣ Find the average popularity of top 10 ranked anime
 
-Query
+**Query**
+```sql
 
 select avg(Popularity) as avg_popularity_top10
 from (
@@ -303,7 +302,6 @@ Output
 
 ```
 
----
 
 ---
 
@@ -311,7 +309,8 @@ Output
 ### 
 6️⃣ Create a view for overall insights of Anime & Manga
 
-Query
+**Query**
+```sql
 
 create view vw_AnimeManga_Insights as
 select 
@@ -342,8 +341,6 @@ Output
 +----------+--------------+-----------+----------------+
 ```
 
-
-```
 
 ## 📌 How to Use  
 
