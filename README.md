@@ -52,7 +52,6 @@ _Head-to-head comparison_
 
 ---
 
-
 ## 🗂️ SQL Queries & Outputs
 
 ### Queries Covered (26 Total)
@@ -74,6 +73,8 @@ _Head-to-head comparison_
 - **📸 **[SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png):**  ** → Query 26 (final view with insights)  
 
 ---
+
+
 
 
 ## ⚙️ Tools & Technologies
