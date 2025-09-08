@@ -176,7 +176,48 @@ select
 
 
 
-# 📊 SQL Query Outputs --- Here are the SQL queries used in this project with sample outputs 🔑 Key Insights ⭐ Average score of Anime (~7.42) vs Manga (~7.36) is nearly equal. 📚 Manga has more titles (7,320) than Anime (9,994 in dataset, but many are shorter adaptations). 🌍 Anime tends to dominate in global popularity (votes, fan following). 🏢 A few studios (e.g., Aniplex, Toei Animation) and authors (e.g., ZUN) dominate top-rated works. 🎭 Manga genres are more diverse, whereas Anime is more studio-driven. ⏳ Content addition shows Anime releases peaked in certain years, while Manga shows long-term consistency. ❌ Many Anime series are dropped mid-production, but Manga has even higher drop rates per author. --- ### 2️⃣ Find total number of anime titles released Query select count(distinct Title) as total_anime_titles from Anime; Output +-------------------+ | total_anime_titles| +-------------------+ | 9994 | +-------------------+
+# 📊 SQL Query Outputs
+
+---
+Here are the SQL queries used in this project with sample outputs
+
+🔑 Key Insights
+
+⭐ Average score of Anime (~7.42) vs Manga (~7.36) is nearly equal.
+
+📚 Manga has more titles (7,320) than Anime (9,994 in dataset, but many are shorter adaptations).
+
+🌍 Anime tends to dominate in global popularity (votes, fan following).
+
+🏢 A few studios (e.g., Aniplex, Toei Animation) and authors (e.g., ZUN) dominate top-rated works.
+
+🎭 Manga genres are more diverse, whereas Anime is more studio-driven.
+
+⏳ Content addition shows Anime releases peaked in certain years, while Manga shows long-term consistency.
+
+❌ Many Anime series are dropped mid-production, but Manga has even higher drop rates per author.
+
+---
+
+
+###
+2️⃣ Find total number of anime titles released
+
+Query
+
+select count(distinct Title) as total_anime_titles
+from Anime;
+
+
+Output
+
++-------------------+
+| total_anime_titles|
++-------------------+
+|       9994        |
++-------------------+
+```
+
 ---
 
 ---
@@ -206,7 +247,40 @@ Output
 +-----------+--------------+
 
 > 🔍 **Insight:**Insight👉 Shounen dominates Manga genres, reflecting its mainstream appeal, followed by Seinen and Shoujo.
---- --- ### 5️⃣ Find the average popularity of top 10 ranked anime Query select avg(Popularity) as avg_popularity_top10 from ( select top 10 Title, Popularity from Anime order by Rank asc ) t; Output +----------------------+ | avg_popularity_top10 | +----------------------+ | 3.1M | +----------------------+ > 🔍 **Insight:** The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom
+```
+
+---
+
+---
+
+
+
+###
+5️⃣ Find the average popularity of top 10 ranked anime
+
+Query
+
+select avg(Popularity) as avg_popularity_top10
+from (
+    select top 10 Title, Popularity
+    from Anime
+    order by Rank asc
+) t;
+
+
+Output
+
++----------------------+
+| avg_popularity_top10 |
++----------------------+
+|        3.1M          |
++----------------------+
+
+
+> 🔍 **Insight:** The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom
+
+```
+
 ---
 
 ---
@@ -245,7 +319,12 @@ Output
 |  Anime   |     9994     |    7.42   |     39M        |
 |  Manga   |     7320     |    7.36   |     67M        |
 +----------+--------------+-----------+----------------+
---- --- 
+```
+
+---
+
+---
+
 ## 📌 How to Use  
 
 1. Import the dataset (**Anime.csv** & **Manga.csv**) into **SQL Server**.  
