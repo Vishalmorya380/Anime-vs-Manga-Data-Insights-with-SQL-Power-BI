@@ -213,11 +213,9 @@ Copy code
 |  Manga   |     7320     |    7.36   |     67M        |
 +----------+--------------+-----------+----------------+
 🔍 Insight: Average scores are nearly equal, but Manga has more global popularity and a broader genre distribution, while Anime dominates votes and adaptations.
-```sql
+
 ```
-
 ###
-
 Anime & Manga Insight(SQL + Power BI) project questions (table: Anime & Manga)
 
  ```sql
@@ -278,7 +276,7 @@ select Rating, avg (try_cast(Episodes as int)) as AvgEpisodes from anime group b
 ```
 
 ---
-`````
+```
 ###
  Anime Data Insights Using View Summary from vw_animemanga_insights
 
