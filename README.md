@@ -198,38 +198,66 @@ select
 
 ---
 
-# 📊 SQL Query Outputs  
-Here are the SQL queries used in this project with **sample outputs** and **insights**.
+# 📊 SQL Query Outputs
+
+---
+Here are the SQL queries used in this project with sample outputs
+
+🔑 Key Insights
+
+⭐ Average score of Anime (~7.42) vs Manga (~7.36) is nearly equal.
+
+📚 Manga has more titles (7,320) than Anime (9,994 in dataset, but many are shorter adaptations).
+
+🌍 Anime tends to dominate in global popularity (votes, fan following).
+
+🏢 A few studios (e.g., Aniplex, Toei Animation) and authors (e.g., ZUN) dominate top-rated works.
+
+🎭 Manga genres are more diverse, whereas Anime is more studio-driven.
+
+⏳ Content addition shows Anime releases peaked in certain years, while Manga shows long-term consistency.
+
+❌ Many Anime series are dropped mid-production, but Manga has even higher drop rates per author.
 
 ---
 
-### 2️⃣ Find total number of anime titles released
+
+###
+2️⃣ Find total number of anime titles released
 **Query**
 ```sql
-SELECT COUNT(DISTINCT Title) AS total_anime_titles
-FROM Anime;
+
+select count(distinct Title) as total_anime_titles
+from Anime;
+
+
 Output
 
-diff
-Copy code
 +-------------------+
 | total_anime_titles|
 +-------------------+
 |       9994        |
 +-------------------+
+```
+
+---
+
+---
+
+
+\###
 7️⃣ Find top 5 manga genres with the highest number of titles
+
 Query
 
-sql
-Copy code
-SELECT TOP 5 Genres, COUNT(*) AS total_titles
-FROM Manga
-GROUP BY Genres
-ORDER BY total_titles DESC;
+select top 5 Genres, count(*) as total_titles
+from Manga
+group by Genres
+order by total_titles desc;
+
+
 Output
 
-diff
-Copy code
 +-----------+--------------+
 |  Genres   | total_titles |
 +-----------+--------------+
@@ -239,66 +267,83 @@ Copy code
 | Josei     |     280      |
 | Kids      |     130      |
 +-----------+--------------+
-🔍 Insight: Shounen dominates Manga genres, reflecting its mainstream appeal, followed by Seinen and Shoujo.
 
+> 🔍 **Insight:**Insight👉 Shounen dominates Manga genres, reflecting its mainstream appeal, followed by Seinen and Shoujo.
+```
+
+---
+
+---
+
+
+
+###
 5️⃣ Find the average popularity of top 10 ranked anime
+
 Query
 
-sql
-Copy code
-SELECT AVG(Popularity) AS avg_popularity_top10
-FROM (
-    SELECT TOP 10 Title, Popularity
-    FROM Anime
-    ORDER BY Rank ASC
+select avg(Popularity) as avg_popularity_top10
+from (
+    select top 10 Title, Popularity
+    from Anime
+    order by Rank asc
 ) t;
+
+
 Output
 
-diff
-Copy code
 +----------------------+
 | avg_popularity_top10 |
 +----------------------+
 |        3.1M          |
 +----------------------+
-🔍 Insight: The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom.
 
-2️⃣6️⃣ Create a view for overall insights of Anime & Manga
+
+> 🔍 **Insight:** The top 10 Anime average over 3M+ popularity votes, showing how a handful of iconic titles dominate global fandom
+
+```
+
+---
+
+---
+
+
+### 
+6️⃣ Create a view for overall insights of Anime & Manga
+
 Query
 
-sql
-Copy code
-CREATE VIEW vw_AnimeManga_Insights AS
-SELECT 
-   'Anime' AS Category,
-   COUNT(DISTINCT Title) AS total_titles,
-   AVG(Score) AS avg_score,
-   SUM(Popularity) AS total_popularity
-FROM Anime
-UNION ALL
-SELECT 
-   'Manga' AS Category,
-   COUNT(DISTINCT Title) AS total_titles,
-   AVG(Score) AS avg_score,
-   SUM(Popularity) AS total_popularity
-FROM Manga;
+create view vw_AnimeManga_Insights as
+select 
+   'Anime' as Category,
+   count(distinct Title) as total_titles,
+   avg(Score) as avg_score,
+   sum(Popularity) as total_popularity
+from Anime
+union all
+select 
+   'Manga' as Category,
+   count(distinct Title) as total_titles,
+   avg(Score) as avg_score,
+   sum(Popularity) as total_popularity
+from Manga;
 
 -- View Output
-SELECT * FROM vw_AnimeManga_Insights;
+select * from vw_AnimeManga_Insights;
+
+
 Output
 
-diff
-Copy code
 +----------+--------------+-----------+----------------+
 | Category | total_titles | avg_score | total_popularity|
 +----------+--------------+-----------+----------------+
 |  Anime   |     9994     |    7.42   |     39M        |
 |  Manga   |     7320     |    7.36   |     67M        |
 +----------+--------------+-----------+----------------+
-🔍 Insight: Average scores are nearly equal, but Manga has more global popularity and a broader genre distribution, while Anime dominates votes and adaptations.
+```
 
------
 
+```
 
 ## 📌 How to Use  
 
