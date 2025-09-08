@@ -1,11 +1,5 @@
 # 🎬 Anime & Manga Analytics Dashboard (Power BI + SQL)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black) 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white) 
-![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
-
----
-
 ## 📌 Project Overview
 This project combines **Microsoft Power BI** and **SQL Server** to analyze Anime and Manga datasets.  
 The dashboard provides insights into scores, popularity, genres, studios, authors, and a head-to-head comparison of Anime vs Manga.  
@@ -22,10 +16,8 @@ _Global KPIs with slicers_
 - Popularity by Votes  
 - Max Rank  
 
-📸 **[Dashboard Screenshot Page 1 KPI OVERVIEW 1](KPI%20Overview.png)**  
-📸 **[Dashboard Screenshot KPI OVERVIEW 2](KPI%20Overview%202.png)**  
-
----
+📸 **[Dashboard Screenshot Page 1 KPI OVERVIEW 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview.png):**  
+📸 **[Dashboard Screenshot KPI OVERVIEW 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/KPI%20Overview%202.png):**  
 
 ### 2️⃣ Anime Analysis  
 _Drill-down into Anime dataset_  
@@ -35,9 +27,7 @@ _Drill-down into Anime dataset_
 - Episodes dropped by studios  
 - Titles from different sources  
 
-📸 **[Dashboard Screenshot Page 2](Anime%20Analysis.png)**  
-
----
+📸 **[Dashboard Screenshot Page 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20Analysis.png):**   
 
 ### 3️⃣ Manga Analysis  
 _Drill-down into Manga dataset_  
@@ -47,9 +37,7 @@ _Drill-down into Manga dataset_
 - Manga types distribution  
 - Manga publication trends  
 
-📸 **[Dashboard Screenshot Page 3](Manga%20Analysis.png)**  
-
----
+📸 **[Dashboard Screenshot Page 3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Manga%20Analysis.png):**    
 
 ### 4️⃣ Anime vs Manga Comparison  
 _Head-to-head comparison_  
@@ -58,10 +46,12 @@ _Head-to-head comparison_
 - Most popular Anime vs Manga by score  
 - Rating distributions  
 
-📸 **[Dashboard Screenshot 4](Anime%20VS%20Manga.png)**  
-📸 **[Dashboard Screenshot 4 with Slicer](Anime%20VS%20Manga%20with%20slicer.png)**  
+📸 **[Dashboard Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga.png):**
+📸 **[Dashboard Screenshot 4 with Slicer](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20VS%20Manga%20with%20slicer.png):**   
+   
 
 ---
+
 
 ## 🗂️ SQL Queries & Outputs
 
@@ -70,20 +60,21 @@ _Head-to-head comparison_
 - Joins (INNER, LEFT)  
 - Subqueries  
 - Group By + Having  
-- Window Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`)  
+- Window Functions (ROW_NUMBER, RANK, DENSE_RANK)  
 - CTE (Common Table Expressions)  
-- Set Operations (`UNION`, `INTERSECT`)  
+- Set Operations (UNION, INTERSECT)  
 - View creation for overall insights  
 
 ---
 
 ### 📸 SQL Query Screenshots
-- 📸 **[SQL Query Screenshot 1](Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png)** → Queries 1–10 (output of Query 2)  
-- 📸 **[SQL Query Screenshot 2](Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png)** → Queries 11–20 (output of Query 17)  
-- 📸 **[SQL Query Screenshot 3](Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png)** → Queries 21–25 (output of Query 25)  
-- 📸 **[SQL Query Screenshot 4](Anime%20%26%20Manga%20Sql%20Queries%2026.png)** → Query 26 (final view with insights)  
+- ** **[SQL Query Screenshot 1](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%201%20to%2010.png):**  ** → Queries 1–10 (output of Query 2)  
+- **📸 **[SQL Query Screenshot 2](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2011%20to%2020.png):**  ** → Queries 11–20 (output of Query 17)  
+- **📸 **[SQL Query Screenshot3](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2021%20to%2025.png):**  ** → Queries 21–25 (output of Query 25)  
+- **📸 **[SQL Query Screenshot 4](https://github.com/Vishalmorya380/Anime-vs-Manga-Data-Insights-with-SQL-Power-BI/blob/main/Anime%20%26%20Manga%20Sql%20Queries%2026.png):**  ** → Query 26 (final view with insights)  
 
 ---
+
 
 ## ⚙️ Tools & Technologies
 - **Power BI** → Data Cleaning, Visualization, Dashboarding  
@@ -221,11 +212,14 @@ Copy code
 |  Manga   |     7320     |    7.36   |     67M        |
 +----------+--------------+-----------+----------------+
 🔍 Insight: Average scores are nearly equal, but Manga has more global popularity and a broader genre distribution, while Anime dominates votes and adaptations.
+-----
 
+-----
 
+----
 
 ##
- Anime & Manga Insight(SQL + Power BI) project questions (table: Anime & Manga)
+Anime & Manga Insight(SQL + Power BI) project questions (table: Anime & Manga)
 
  ```sql
 ---- Anime & Manga Insight Queries [QUESTIONS] ----  
